@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Art Gallery</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div class="center-container">
+  <button class="btn" onclick="toggleDivs(),toggleSize()">
+    <div id="resizable" class="centered-square">
+      <div id="artworkDetails"></div>
+    </div>
+  </button>
+
+  <div id="infosqr" class="hidden">
+    <div id="artworkInformation" class="information-square">
+    </div>
+    <button id="refresh" class="next-btn" onclick="refresh()"> Next </button>
+  </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>

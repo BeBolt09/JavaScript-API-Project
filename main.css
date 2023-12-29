@@ -1,0 +1,83 @@
+  
+  body, html {
+      height: 100%;
+      margin: 0;
+    }
+  
+  .center-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+
+  }
+  
+  .centered-square {
+    width: 300px; /* Adjust the size of your square as needed */
+    height: 300px;
+    /* border: 5px solid #1a1818e3; */
+    background-color: #1a1818; /* Adjust the color as needed */
+    overflow: hidden; /* Ensure the image doesn't overflow the square */
+    margin: 0 auto;
+  }
+  
+  .centered-square img {
+    width: 100%; /* Make the image fill the square */
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the square */
+  }
+  
+  .btn { 
+      background-color: rgba(0, 0, 0, 0.628); /* Fully transparent black */
+      color: #333; /* Text color */
+      padding: 3px 3px; /* Adjust padding as needed */
+      cursor:pointer;
+      margin-right: 30px;
+  }
+  .hidden{
+    display: none;
+  }
+
+
+  .information-square {
+    width: 400px; /* Adjust the size of your square as needed */
+    height: 600px;
+    border: 5px solid #1a1818e3;
+    background-color: #fff; /* Adjust the color as needed */
+    overflow: hidden; /* Ensure the image doesn't overflow the square */
+    margin-left:30px;
+  }
+
+
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    padding: 10px;
+  }
+  h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .next-btn{
+    position: absolute;
+    bottom: 150px;
+    right: 345px;
+
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 12px 24px;
+    border: 0;
+    color: #3a4149;
+    background: #e7ebee;
+    line-height: 1.15;
+    font-size: 16px;
+    :hover {
+        transition: all .1s ease;
+        box-shadow: 0 0 0 0 #fff, 0 0 0 3px #1de9b6;
+    }
+    
+  }
